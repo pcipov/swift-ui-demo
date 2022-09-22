@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ListView: View {
     
-    @State private var listItems = ["First", "Second"]
+    @State private var listItems = ["First", "Second", "Third"]
     
     var body: some View {
         NavigationView {

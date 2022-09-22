@@ -8,10 +8,15 @@
 import SwiftUI
 
 struct SampleEmptyView: View {
+
+    var aaa: String {
+        "aaa"
+    }
+
     var body: some View {
 
         EmptyView()
-
+        
     }
 }
 

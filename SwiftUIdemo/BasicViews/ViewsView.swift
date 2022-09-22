@@ -71,21 +71,10 @@ struct ViewsView: View {
                 Text("\(context.date)")
             }
             
-            
             Spacer()
 
         }
-        .padding(.horizontal, 10)
-        .toolbar {
-            ToolbarItemGroup(placement: .bottomBar) {
-                Button("Toolbar Button 1") {
-                    print("First button pressed")
-                }
-                Button("Toolbar Button 2") {
-                    print("Second button pressed")
-                }
-            }
-        }
+            .padding(.horizontal, 10)
 
     }
 }

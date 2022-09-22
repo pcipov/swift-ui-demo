@@ -13,11 +13,19 @@ struct BasicView: View {
         NavigationView {
             List {
                 NavigationLink { ViewsView() } label: { Text("Views") }.badge(10)
-                NavigationLink { ModifiersView() } label: { Text("Modifiers") }
+                NavigationLink { ModifiersControlsView() } label: { Text("Modifiers - Controls") }
+                NavigationLink { ModifiersEffectsView() } label: { Text("Modifiers - Effects") }
+                NavigationLink { ModifiersLayoutView() } label: { Text("Modifiers - Layout") }
+                NavigationLink { ModifiersTextView() } label: { Text("Modifiers - Text") }
+                NavigationLink { ModifiersImageView() } label: { Text("Modifiers - Image") }
+                NavigationLink { ModifiersListView() } label: { Text("Modifiers - List") }
                 NavigationLink { GraphicsView() } label: { Text("Graphics") }
                 NavigationLink { SampleEmptyView() } label: { Text("Empty View") }
             }
             .navigationTitle("Basic")
+            .navigationBarTitleDisplayMode(.automatic)
+            //.navigationBarTitleDisplayMode(.inline)
+            //.navigationBarTitleDisplayMode(.large)
         }
     }
 

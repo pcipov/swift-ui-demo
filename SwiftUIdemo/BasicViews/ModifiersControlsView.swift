@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ModifiersView: View {
+struct ModifiersControlsView: View {
     
     @State private var showingConfirmationDialog = false
     @State private var showingActionSheet = false
@@ -131,14 +131,15 @@ struct ModifiersView: View {
             Spacer()
             
         }
+        
     
     }
     
 }
 
-struct ModifiersView_Previews: PreviewProvider {
+struct ModifiersControlsView_Previews: PreviewProvider {
     static var previews: some View {
-        ModifiersView()
+        ModifiersControlsView()
     }
 }
 

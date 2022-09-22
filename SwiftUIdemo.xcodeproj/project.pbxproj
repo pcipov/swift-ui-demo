@@ -20,7 +20,12 @@
 		026D041628DB31F100CFE1BC /* GraphicsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026D041528DB31F100CFE1BC /* GraphicsView.swift */; };
 		026D041828DB329A00CFE1BC /* ViewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026D041728DB329A00CFE1BC /* ViewsView.swift */; };
 		026D041A28DBBA1D00CFE1BC /* SampleEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026D041928DBBA1D00CFE1BC /* SampleEmptyView.swift */; };
-		026D041C28DBCA4400CFE1BC /* ModifiersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026D041B28DBCA4400CFE1BC /* ModifiersView.swift */; };
+		026D041C28DBCA4400CFE1BC /* ModifiersControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026D041B28DBCA4400CFE1BC /* ModifiersControlsView.swift */; };
+		026D041E28DC69F800CFE1BC /* ModifiersEffectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026D041D28DC69F800CFE1BC /* ModifiersEffectsView.swift */; };
+		026D042028DCB91E00CFE1BC /* ModifiersLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026D041F28DCB91E00CFE1BC /* ModifiersLayoutView.swift */; };
+		026D042228DCD8DD00CFE1BC /* ModifiersTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026D042128DCD8DD00CFE1BC /* ModifiersTextView.swift */; };
+		026D042428DCE2AB00CFE1BC /* ModifiersImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026D042328DCE2AB00CFE1BC /* ModifiersImageView.swift */; };
+		026D042628DCE80C00CFE1BC /* ModifiersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026D042528DCE80C00CFE1BC /* ModifiersListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,7 +43,12 @@
 		026D041528DB31F100CFE1BC /* GraphicsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicsView.swift; sourceTree = "<group>"; };
 		026D041728DB329A00CFE1BC /* ViewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsView.swift; sourceTree = "<group>"; };
 		026D041928DBBA1D00CFE1BC /* SampleEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleEmptyView.swift; sourceTree = "<group>"; };
-		026D041B28DBCA4400CFE1BC /* ModifiersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifiersView.swift; sourceTree = "<group>"; };
+		026D041B28DBCA4400CFE1BC /* ModifiersControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifiersControlsView.swift; sourceTree = "<group>"; };
+		026D041D28DC69F800CFE1BC /* ModifiersEffectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifiersEffectsView.swift; sourceTree = "<group>"; };
+		026D041F28DCB91E00CFE1BC /* ModifiersLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifiersLayoutView.swift; sourceTree = "<group>"; };
+		026D042128DCD8DD00CFE1BC /* ModifiersTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifiersTextView.swift; sourceTree = "<group>"; };
+		026D042328DCE2AB00CFE1BC /* ModifiersImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifiersImageView.swift; sourceTree = "<group>"; };
+		026D042528DCE80C00CFE1BC /* ModifiersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifiersListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +110,12 @@
 				026D041528DB31F100CFE1BC /* GraphicsView.swift */,
 				026D041728DB329A00CFE1BC /* ViewsView.swift */,
 				026D041928DBBA1D00CFE1BC /* SampleEmptyView.swift */,
-				026D041B28DBCA4400CFE1BC /* ModifiersView.swift */,
+				026D041B28DBCA4400CFE1BC /* ModifiersControlsView.swift */,
+				026D041D28DC69F800CFE1BC /* ModifiersEffectsView.swift */,
+				026D041F28DCB91E00CFE1BC /* ModifiersLayoutView.swift */,
+				026D042128DCD8DD00CFE1BC /* ModifiersTextView.swift */,
+				026D042328DCE2AB00CFE1BC /* ModifiersImageView.swift */,
+				026D042528DCE80C00CFE1BC /* ModifiersListView.swift */,
 			);
 			path = BasicViews;
 			sourceTree = "<group>";
@@ -178,15 +193,20 @@
 				020B914B28CF1822006E28B8 /* ScrollViewExample.swift in Sources */,
 				026D041828DB329A00CFE1BC /* ViewsView.swift in Sources */,
 				020B915128CF2B67006E28B8 /* ListItemView.swift in Sources */,
+				026D042428DCE2AB00CFE1BC /* ModifiersImageView.swift in Sources */,
+				026D042228DCD8DD00CFE1BC /* ModifiersTextView.swift in Sources */,
 				020B914D28CF188E006E28B8 /* FormView.swift in Sources */,
+				026D042028DCB91E00CFE1BC /* ModifiersLayoutView.swift in Sources */,
 				026D041A28DBBA1D00CFE1BC /* SampleEmptyView.swift in Sources */,
 				020B913D28CF15CF006E28B8 /* ContentView.swift in Sources */,
 				020B914928CF17C8006E28B8 /* ListView.swift in Sources */,
 				020B914F28CF18AA006E28B8 /* FourthTabView.swift in Sources */,
 				020B913B28CF15CF006E28B8 /* SwiftUIdemoApp.swift in Sources */,
 				020B915328CF336B006E28B8 /* BasicView.swift in Sources */,
+				026D041E28DC69F800CFE1BC /* ModifiersEffectsView.swift in Sources */,
 				026D041628DB31F100CFE1BC /* GraphicsView.swift in Sources */,
-				026D041C28DBCA4400CFE1BC /* ModifiersView.swift in Sources */,
+				026D041C28DBCA4400CFE1BC /* ModifiersControlsView.swift in Sources */,
+				026D042628DCE80C00CFE1BC /* ModifiersListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
