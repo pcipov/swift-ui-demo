@@ -77,11 +77,21 @@ struct FormView: View {
             .onSubmit {
                 print("Submitted")
             }
+            .onTapGesture {
+                hideKeyboard()
+            }
     }
 }
 
 struct FormView_Previews: PreviewProvider {
     static var previews: some View {
         FormView()
+    }
+}
+
+extension View {
+    func hideKeyboard() {
+        let resign = #selector(UIResponder.resignFirstResponder)
+        UIApplication.shared.sendAction(resign, to: nil, from: nil, for: nil)
     }
 }
